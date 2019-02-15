@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-  </head>
-  <body>
-    <div>OI</div>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Freelancer - Start Bootstrap Theme</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li class="nav-1">START BOOTSTRAP</li>
+      <li class="nav-bar">PORTFOLIO</li>
+      <li class="nav-bar">ABOUT</li>
+      <li class="nav-bar">CONTACT</li>
+    </ul>
+  </nav>
+  <header>
+    <img class="peple" src="assets/images/profile.png" alt="profile">
+    <h1 class="titulo">START BOOTSTRAP</h1>
+    <h4 class="subtitulo">Web Developer - Graphic Artist - User Experience Designer</h3>
+  </header>
+  <main>
+    <h2 class="titulo-main">PORTFOLIO</h2>
+    <figure>
+      <div class="first-linha">
+        <img class="image" src="assets/images/portfolio/cabin.png" alt="cabin" width="320px" height="239px">
+        <img class="cake" src="assets/images/portfolio/cake.png" alt="cake" width="320px" height="239px">
+        <img class="circus" src="assets/images/portfolio/circus.png" alt="circus" width="320px" height="239px">
+      </div>
+      <div class="sec-linha">
+        <img class="game" src="assets/images/portfolio/game.png" alt="game" width="320px" height="239px">
+        <img class="safe" src="assets/images/portfolio/safe.png" alt="safe" width="320px" height="239px">
+        <img class="submarine" src="assets/images/portfolio/submarine.png" alt="submarine" width="320px" height="239px">
+      </div>
+    </figure>
+  </main>
+  <article>
+    <h2 class="about-title">ABOUT</h3>
+      <div class="paragrafo1">
+        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source
+          files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+      </div>
+      <div class="paragrafo2">
+        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a
+          graphic artist looking to share your projects, this template is the perfect starting point!</p>
+      </div>
+      <button class="button">Download Now!</button>
+  </article>
+  <section class="input">
+    <h2 class="contact-section">CONTACT ME</h2>
+    <form action="contact-input" method="post">
+      <dl>
+        <dt><label for="title-form">Name:</label></dt>
+        <dd><input type="text" class="msg"></dd>
+        <dt><label for="title-form">Email Address:</label></dt>
+        <dd><input type="email" class="msg"></dd>
+        <dt><label for="title-form">Phone Number:</label></dt>
+        <dd><input type="text" class="msg" name="numero"></dd>
+        <dt><label for="title-form">Message:</label></dt>
+        <dd><textarea class="message-input"></textarea></dd>
+      </dl>
+      <button class="button-submit" type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <div class="column um">
+      <h2>LOCATION</h3>
+        <p class="text um">2215 John Daniel Drive<br>Clark, MO 65243</p>
+    </div>
+    <div class="column dois">
+      <h2>AROUND THE WEB</h3>
+        <ul id="social-nav">
+          <li class="icone"><i class="fab fa-facebook-f"></i></li>
+          <li class="icone"><i class="fab fa-google-plus-g"></i></li>
+          <li class="icone"><i class="fab fa-twitter"></i></li>
+          <li class="icone"><i class="fab fa-linkedin-in"></i></li>
+          <li class="icone"><i class="fab fa-dribbble"></i></li>
+        </ul>
+    </div>
+    <div class="column tres">
+      <h2>ABOUT FREELANCER</h3>
+        <p class="text tres">Freelance is a free to use,<br> open source Bootstrap theme created<br> by <a href="https://startbootstrap.com/"">Start Bootstrap</a>.</p>
+    </div>
+  </footer>
+</body>
+
 </html>
